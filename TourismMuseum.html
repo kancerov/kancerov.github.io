@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Промышленный предприятия Подольска</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/TourismMuseumStyle.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body onscroll="document.getElementById('UpScroll').classList.toggle('show', window.scrollY > window.innerHeight / 2);">
+
+    <header class="header">
+        <div class="container">
+             <nav class="nav">
+                <div class="logo">
+                    <img class="logo-img" src="img/logo.svg" alt="Logo">
+                </div>
+                <ul>
+                    <li>
+                        <a href="main.html">Научно-исследовательские <br/> институты</a>
+                    </li>
+                    <li>
+                        <a href="TourismKB.html">Конструкторские <br/> бюро</a>
+                    </li>
+                    <li>
+                        <a href="TourismNaukograd.html">Наукограды</a>
+                    </li>
+                    <li class="main-item">
+                        <a href="TourismMuseum.html">Музеи</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <img id="UpScroll" src="img/top.png" alt="" href="#" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;" class="back-to-top">
+        <div class="block">
+            <div class="sitetitle">Научно-популярный туризм <br/>южного Подмосковья</div>
+        </div>       
+    </main>
+</body>
+</html>
